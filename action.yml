@@ -1,6 +1,10 @@
-name: "Runner Cleanup Action"
+name: "Runner Cleanup for Flatak Org"
 description: "Aggressively reclaim disk space on GitHub-hosted runners."
-author: "Matej Lednicky"
+author: "FlatpaksOrg"
+
+branding:
+  icon: "trash"
+  color: "white"
 
 runs:
   using: "composite"
